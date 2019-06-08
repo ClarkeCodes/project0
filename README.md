@@ -1,4 +1,4 @@
-# CS50 Web programming
+# CS50W
 ## Project 0 
 
 [Live](https://github.com/ElineJ)
