@@ -1,0 +1,65 @@
+.home {
+  padding: 1rem 0.5rem; }
+  @media screen and (min-width: 767px) {
+    .home {
+      padding: 5rem; } }
+
+.intro:hover {
+  color: #b92130; }
+
+@media screen and (max-width: 767px) {
+  h1.display-4.intro-header {
+    font-size: 2.2rem; } }
+.projects figure {
+  padding: 0 1rem; }
+.projects figcaption {
+  width: 17rem; }
+.projects__examples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+.projects__credit {
+  font-weight: bold; }
+.projects__image {
+  width: 17rem;
+  height: 12rem;
+  padding-bottom: 1rem;
+  object-fit: cover; }
+.projects .badge:hover {
+  background-color: #fcf8e3; }
+@media screen and (max-width: 767px) {
+  .projects__examples {
+    justify-content: center; }
+  .projects__image {
+    max-width: 90%; } }
+
+.badge-light {
+  border: 1px solid;
+  font-weight: normal; }
+
+.social-links img {
+  height: 2rem; }
+.social-links img:hover {
+  filter: invert(100%);
+  text-decoration: none; }
+.social-links a {
+  color: #f8f9fa; }
+@media screen and (max-width: 767px) {
+  .social-links {
+    padding-bottom: 1rem; } }
+
+.links thead th {
+  font-weight: bold; }
+.links th {
+  font-weight: normal; }
+@media screen and (min-width: 767px) {
+  .links {
+    padding: 0 10rem; } }
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f8f9fa;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=styles.css.map */

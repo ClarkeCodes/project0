@@ -1,0 +1,45 @@
+.projects {
+    figure {
+        padding: 0 1rem;
+    }
+
+    figcaption {
+        width: 17rem;
+    }
+
+    &__examples {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    &__credit {
+        font-weight: bold;      
+    }
+
+    &__image {
+        width: 17rem;
+        height: 12rem;
+        padding-bottom: 1rem;
+        object-fit: cover
+    }
+
+    .badge:hover {
+        background-color: $light-yellow;
+    }
+
+    @media screen and (max-width: 767px) {
+        &__examples {
+            justify-content: center;
+        }
+
+        &__image {
+            max-width: 90%;
+        }
+    }
+}
+
+.badge-light {
+    border: 1px solid;
+    font-weight: normal;
+}
