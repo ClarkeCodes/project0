@@ -2,8 +2,24 @@
     padding: 1rem 0.5rem;
 
     @media screen and (min-width: 767px) {
-        padding: 5rem;
+        padding: 6rem;
     }
+}
+
+#intro-header {
+    display: inline;
+    position: relative;
+    color: rgba(0,0,255,0.5);
+    font-size: 5rem;
+}
+
+#intro-header:after {
+    content: 'Hello, World!';
+    position: absolute; 
+    left: 5px;
+    top: 2px;
+    width: 100%;
+    color: rgba(255,0,0,0.5);
 }
 
 .intro:hover {
