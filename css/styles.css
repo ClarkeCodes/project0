@@ -5,7 +5,7 @@
   padding: 1rem 0.5rem; }
   @media screen and (min-width: 767px) {
     .home {
-      padding: 6rem; } }
+      padding: 5rem 5rem 1rem; } }
 
 #intro-header {
   display: inline;
@@ -21,12 +21,9 @@
   width: 100%;
   color: rgba(255, 0, 0, 0.5); }
 
-.intro:hover {
-  color: #b92130; }
-
-@media screen and (max-width: 767px) {
-  h1.display-4.intro-header {
-    font-size: 2.2rem; } }
+@media screen and (min-width: 767px) {
+  #intro-header {
+    font-size: 6rem; } }
 .projects figure {
   padding: 0 1rem; }
 .projects figcaption {
@@ -46,7 +43,7 @@
   background-color: #fcf8e3; }
 @media screen and (max-width: 767px) {
   .projects {
-    padding: 0; }
+    padding: 0 0.5rem; }
     .projects__examples {
       justify-content: center; }
     .projects__image {
@@ -58,7 +55,7 @@
 
 @media screen and (max-width: 767px) {
   .about {
-    padding: 0; } }
+    padding: 0 0.5rem; } }
 
 .social-links img {
   height: 2rem; }
@@ -81,8 +78,6 @@
 
 body {
   font-family: 'Work Sans', sans-serif;
-  background-color: #f8f9fa;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-color: #f8f9fa; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,7 +2,7 @@
     @extend %page-padding-desktop;
 
     @media screen and (max-width: 767px) {
-        padding: 0;
+        padding: 0 0.5rem;
     }
 }
 

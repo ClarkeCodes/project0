@@ -2,7 +2,7 @@
     padding: 1rem 0.5rem;
 
     @media screen and (min-width: 767px) {
-        padding: 6rem;
+        padding: 5rem 5rem 1rem;
     }
 }
 
@@ -22,12 +22,8 @@
     color: rgba(255,0,0,0.5);
 }
 
-.intro:hover {
-    color: #b92130;
-}
-
-@media screen and (max-width: 767px) {
-    h1.display-4.intro-header {
-        font-size: 2.2rem;
+@media screen and (min-width: 767px) {
+    #intro-header {
+        font-size: 6rem;
     }
 }
