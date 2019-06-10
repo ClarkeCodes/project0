@@ -1,4 +1,6 @@
 .projects {
+    @extend %page-padding-desktop;
+
     figure {
         padding: 0 1rem;
     }
@@ -29,6 +31,8 @@
     }
 
     @media screen and (max-width: 767px) {
+        padding: 0;
+
         &__examples {
             justify-content: center;
         }

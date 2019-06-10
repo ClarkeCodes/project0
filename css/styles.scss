@@ -1,6 +1,10 @@
 $light-yellow: #fcf8e3;
 $bg-color: #f8f9fa;
 
+%page-padding-desktop {
+    padding: 2rem 0;
+}
+
 @import 'home';
 @import 'projects';
 @import 'about';

@@ -1,3 +1,11 @@
+.about {
+    @extend %page-padding-desktop;
+
+    @media screen and (max-width: 767px) {
+        padding: 0;
+    }
+}
+
 .social-links {    
     img {
         height: 2rem;
@@ -16,3 +24,4 @@
         padding-bottom: 1rem;
     }
 }
+
