@@ -3,7 +3,7 @@
 
 [Live](https://eline.dev/)
 
-For project 0 I decided to make a personal website to showcase what I'm doing during my #100DaysOfCode challenge. It contains a homepage with navigation to three other pages: about, projects and links.
+For project 0 I decided to make a personal website to showcase what I'm doing during my #100DaysOfCode challenge. It contains a homepage with navigation to three additional pages: about, projects and links.
 
 ## Files
 
